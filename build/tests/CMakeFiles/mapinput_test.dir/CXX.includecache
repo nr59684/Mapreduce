@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nilesh/grpc/examples/cpp/Lightweight-MapReduce-master/src/mapinput.h
+string
+-
+vector
+-
+fstream
+-
+
+/home/nilesh/grpc/examples/cpp/Lightweight-MapReduce-master/tests/mapinput_test.cpp
+../src/mapinput.h
+/home/nilesh/grpc/examples/cpp/Lightweight-MapReduce-master/src/mapinput.h
+iostream
+-
+
